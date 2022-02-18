@@ -61,7 +61,7 @@ main {
 }
 
 .caption-text {
-  font-family: logo-font;
+  font-family: logo-font, "Courier New", Courier, monospace;
   color: white;
   font-size: 80px;
 }
