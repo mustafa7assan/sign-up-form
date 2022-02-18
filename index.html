@@ -7,5 +7,80 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Sign In Form</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section class="image-section">
+        <div class="bg-image">
+          <div class="caption">
+            <div class="caption-image">
+              <img src="images/odin-lined.png" alt="Odin Logo" />
+            </div>
+            <div class="caption-text">ODIN</div>
+          </div>
+          <div class="photo-rights">
+            Photo Source is <a href="https://unsplash.com/">Unpslash</a>
+          </div>
+        </div>
+      </section>
+      <section class="form-section">
+        <div class="header">
+          <p>
+            This is not a real online servies! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <em>now</em> to get started.
+          </p>
+          <p>You know <em>you</em> want to.</p>
+        </div>
+        <div class="content">
+          <h3>Let's do this!</h3>
+          <form action="#" id="signin-form">
+            <div class="form-element">
+              <div class="form-control">
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" required />
+              </div>
+              <div class="form-control">
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" required />
+              </div>
+            </div>
+            <div class="form-element">
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required />
+              </div>
+              <div class="form-control">
+                <label for="phone-number">Phone Number</label>
+                <input
+                  type="tel"
+                  name="phone-number"
+                  id="phone-number"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-element">
+              <div class="form-control">
+                <label for="pwd">Password</label>
+                <input type="password" name="password" id="pwd" required />
+              </div>
+              <div class="form-control">
+                <label for="confirm-pwd">Confirm Password</label>
+                <input
+                  type="password"
+                  name="confirm-pwd"
+                  id="confirm-pwd"
+                  required
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="footer">
+          <button type="submit" form="signin-form">Create Account</button>
+          <div>Already have an account? <a href="#">Log in</a></div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
